@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fname",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "lname",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}

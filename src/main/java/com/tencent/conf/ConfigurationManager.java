@@ -25,7 +25,7 @@ public class ConfigurationManager {
             // 就可以用类加载器，去加载类加载路径中的指定的文件
             // 最终可以获取到一个，针对指定文件的输入流（InputStream）
             InputStream in = ConfigurationManager.class
-                    .getClassLoader().getResourceAsStream("ctsdb.properties");
+                    .getClassLoader().getResourceAsStream("tbds.properties");
             // 调用Properties的load()方法，给它传入一个文件的InputStream输入流
             // 即可将文件中的符合“key=value”格式的配置项，都加载到Properties对象中
             // 加载过后，此时，Properties对象中就有了配置文件中所有的key-value对了
