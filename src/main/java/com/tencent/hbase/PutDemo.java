@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author fangfanghao
+ * put 操作演示demo
  */
 public class PutDemo {
     private static final String[] ITEM_ID_ARRAY = new String[]{"1001", "1002",

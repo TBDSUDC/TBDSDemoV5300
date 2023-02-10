@@ -6,9 +6,10 @@ import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 
 import java.io.IOException;
+
 /**
- 10．    * @author pengxu
- 11．    */
+ * 连接相关公共类
+ */
 public class HBaseConnectionFactory {
 
     private static Connection connection = null;
